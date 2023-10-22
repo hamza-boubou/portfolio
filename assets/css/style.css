@@ -1018,6 +1018,19 @@ main {
   font-weight: var(--fw-300);
 }
 
+#rounded-video {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 10px;
+}
+
+.centered-video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+}
 
 
 
@@ -1302,6 +1315,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 12px;
     font-size: 18px;
   }
+  
 
 
 

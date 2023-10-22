@@ -23,6 +23,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <!-- Initialize Google Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'en,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+    }
+  </script>
+  
 </head>
 
 <body>
@@ -102,7 +111,7 @@
             <div class="contact-info">
               <p class="contact-title">Age</p>
 
-              <time datetime="1982-06-23">20</time>
+              <time datetime="1982-06-23">21</time>
             </div>
 
           </li>
@@ -120,6 +129,22 @@
             </div>
 
           </li>
+		  
+		  <li class="contact-item">
+			<div class="icon-box">
+				<a href="https://drive.google.com/file/d/1wnHw40LSukRDNm_GdJvu1BE7M79xDBfG/view?usp=sharing" target="_blank">
+					<img src="./assets/images/cv-en.png" alt="CV English" width=50px height=50px>
+				</a>
+            </div>
+			
+			<div class="icon-box">
+				<a href="https://drive.google.com/file/d/1JzCdH02qbgUz2QV0NdbhpmaNQUEhK87X/view?usp=sharing" target="_blank">
+					<img src="./assets/images/cv-es.png" alt="CV Spanish" width=50px height=50px left=200px>
+				</a>
+            </div>
+
+
+		  </li>
 
         </ul>
 
@@ -128,8 +153,14 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/hamza-boubou/" class="social-link">
+            <a href="https://www.linkedin.com/in/hamza-boubou/" class="social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+		  
+		  <li class="social-item">
+            <a href="https://www.youtube.com/@hbautomation/videos" class="social-link" target="_blank">
+              <ion-icon name="logo-youtube"></ion-icon>
             </a>
           </li>
 
@@ -164,16 +195,16 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Experience</button>
           </li>
+		  
+		            
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Education</button>
           </li>
-
-          <!--
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-          -->
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -194,7 +225,7 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">Who am I?</h2>
+          <h3 class="h3 article-title">Power BI Developer</h3>
         </header>
 
         <section class="about-text">
@@ -203,15 +234,11 @@
           </h4>
           <br>  
           <p>
-            I'm a BI Consultant and a Data Analyst from Spain. Expert with Power BI, solid practical techniques on analyzing Data using Pandas-Numpy-Matplotlib (Python) and of course SQL.
+            I'm a BI Consultant and a Logistics Planner from Spain. Expert with Power BI, solid practical knowledge on analyzing Data using Pandas-Numpy (Python), Power Query, MySQL and Power BI.
           </p>
 
           <p>
-            The ultimate goal behind my knowledge is to help companies Manage, Innovate & Grow their business through making Data driven decisions.
-          </p>
-
-          <p>
-            The values i provide is the innovation, digitalization and growth i can bring to any company by building insights from their data
+            The ultimate goal is to help companies Manage, Innovate & Grow their business through making Data driven decisions from BI insights Dashboards.
           </p>
         </section>
 
@@ -222,7 +249,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">My roles</h3>
+          <h3 class="h3 service-title">Positions</h3>
 
           <ul class="service-list">
 
@@ -234,10 +261,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">BI Consultant</h4>
+                <h4 class="h4 service-item-title">Power BI Developer</h4>
 
                 <p class="service-item-text">
-                  Making Data driven decisions by building interactive Power BI insights dashboards
+                  Helping on Making Data driven decisions by building interactive Power BI insights dashboards
                 </p>
               </div>
 
@@ -253,7 +280,7 @@
                 <h4 class="h4 service-item-title">Data Analyst</h4>
 
                 <p class="service-item-text">
-                  Managing, cleanning & analyzing Big Data using Python & SQL
+                  Managing, transforming & analyzing Big Data using Python & MySQL
                 </p>
               </div>
 
@@ -266,10 +293,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Logistics/ Supply Chain Planner</h4>
+                <h4 class="h4 service-item-title">Logistics Planner</h4>
 
                 <p class="service-item-text">
-                  Supply Chain management, logistics planning
+                  Supply Chain management / logistics planning
                 </p>
               </div>
 
@@ -451,97 +478,115 @@
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Tools</h3>
+          <h3 class="h3 clients-title">Skills</h3>
 
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                <img src="./assets/images/logo-1-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
+                <img src="./assets/images/logo-2-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
+                <img src="./assets/images/logo-3-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
+                <img src="./assets/images/logo-4-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
+                <img src="./assets/images/logo-5-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
+                <img src="./assets/images/logo-6-color.png" alt="Skills">
               </a>
             </li>
             
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-7-color.png" alt="client logo">
+                <img src="./assets/images/logo-7-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-8-color.png" alt="client logo">
+                <img src="./assets/images/logo-8-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-9-color.png" alt="client logo">
+                <img src="./assets/images/logo-9-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-10-color.png" alt="client logo">
+                <img src="./assets/images/logo-10-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-11-color.png" alt="client logo">
+                <img src="./assets/images/logo-11-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-12-color.png" alt="client logo">
+                <img src="./assets/images/logo-12-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-13-color.png" alt="client logo">
+                <img src="./assets/images/logo-13-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-14-color.png" alt="client logo">
+                <img src="./assets/images/logo-14-color.png" alt="Skills">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-15-color.png" alt="client logo">
+                <img src="./assets/images/logo-15-color.png" alt="Skills">
+              </a>
+            </li>
+			
+			<li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-16-color.png" alt="Skills">
+              </a>
+            </li>
+			
+			<li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-17-color.png" alt="Skills">
+              </a>
+            </li>
+			
+			<li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-18-color.png" alt="Skills">
               </a>
             </li>
 
@@ -588,6 +633,28 @@
           </ul>
 
         </section>
+		
+		<section class="clients">
+
+          <h3 class="h3 clients-title">Resume</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1wnHw40LSukRDNm_GdJvu1BE7M79xDBfG/view?usp=sharing" target="_blank">
+                <img src="./assets/images/hamza-en.png" alt="client logo" width=350px height=250px>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1JzCdH02qbgUz2QV0NdbhpmaNQUEhK87X/view" target="_blank">
+                <img src="./assets/images/hamza-es.png" alt="client logo" width=350px height=250px>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
 
       </article>
 
@@ -604,6 +671,64 @@
         <header>
           <h2 class="h2 article-title">Experience</h2>
         </header>
+		
+		<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="service-icon-box">
+              <img src="./assets/images/atliq-logo.png" alt="camera icon" width="30">
+            </div>
+
+            <h3 class="h3">Power BI Developer - AtliQ Full Business Dashboard</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AtliQ Technologies</h4>
+
+              <span>05/2023</span>
+
+              <p class="timeline-text">
+                Developing an End to End Power BI Dashboard which analyses AtliQ Dataset of different departs.
+				<br>
+				Core business functions, Supply chain & Stakeholders management
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+		
+		<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="service-icon-box">
+              <img src="./assets/images/chart-bot.png" alt="camera icon" width="30">
+            </div>
+
+            <h3 class="h3">Trading charts notification Bot (Tradingview to Telegram)</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">t.me/fxmoneyalert</h4>
+
+              <span>05/2023</span>
+
+              <p class="timeline-text">
+                Developed a Trading chart snaps bot, that sends chart snaps hourly from tradingview to TG
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
 
         <section class="timeline">
 
@@ -703,7 +828,7 @@
               <img src="./assets/images/fiverr-exp.png" alt="camera icon" width="50">
             </div>
 
-            <h3 class="h3">BI Analyst & Logistics Planner</h3>
+            <h3 class="h3">Designer & Translator</h3>
           </div>
 
           <ol class="timeline-list">
@@ -715,7 +840,7 @@
               <span>06/2019 — 04/2020</span>
 
               <p class="timeline-text">
-                Photo editing & retouching services
+                Photo editing & retouching service
                 
               </p>
 
@@ -836,6 +961,71 @@
         <header>
           <h2 class="h2 article-title">Education</h2>
         </header>
+		
+		<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="service-icon-box">
+              <img src="./assets/images/domenico-scarlatti.png" alt="camera icon" width="30">
+            </div>
+
+            <h3 class="h3">Domenico Scarlatti - Grado Superior</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Multiplatform Applications Developement</h4>
+
+              <span>08/2022 - Current</span>
+
+              <p class="timeline-text">
+                Currently studying apps developement both for desktop & android 
+					<br>Interfaces developement: JAVA netbeans
+					<br>Database management: MySQL
+					<br>Android dev: JAVA, Android studio, Kotlin
+					<br>Linux & windows admin: Bash, CMD, PowerShell
+					Web dev: HTML, CSS, JS
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+		
+		<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="service-icon-box">
+              <img src="./assets/images/codebasics.png" alt="camera icon" width="30">
+            </div>
+
+            <h3 class="h3">Codebasics</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Power BI for Data Analytics</h4>
+
+              <span>10/2023</span>
+
+              <p class="timeline-text">
+                Power BI data analytics for the finance, sales, supply chain & management fields
+                <br>
+                Data modeling with Power Query, M language, Advanced DAX
+				<br>
+                End to End Full AtliQ Business insights Power BI project
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
 
         <section class="timeline">
 
@@ -894,7 +1084,7 @@
               <img src="./assets/images/domenico-scarlatti.png" alt="camera icon" width="30">
             </div>
 
-            <h3 class="h3">Domenico Scarlatti - Aranjuez</h3>
+            <h3 class="h3">Domenico Scarlatti - Grado Medio</h3>
           </div>
 
           <ol class="timeline-list">
@@ -986,48 +1176,40 @@
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
-              <a href="C:\Users\hamza\Downloads\shaw-cert.pdf">
+              
                 <img src="./assets/images/shaw-cert.png" alt="client logo" >
-              </a>
+              
             </li>
 
             <li class="clients-item">
-              <a href="#">
+              <a href="https://www.sololearn.com/Certificate/CT-F8W8OCL7/png" target="_blank">
                 <img src="./assets/images/python-data-analytics.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/python-core.png" alt="client logo">
+              <a href="https://codebasics.io/certificate/CB-49-169801" target="_blank">
+                <img src="./assets/images/codebasics-cert.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
+              <a href="https://skillshop.exceedlms.com/student/award/HHsZREh9sv3dFDamypJfftuw" target="_blank">
                 <img src="./assets/images/google-digital-cert.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
+              <a href="https://www.sololearn.com/Certificate/CT-8ZGWRGXU/png" target="_blank">
                 <img src="./assets/images/python-core.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
+              <a href="https://www.sololearn.com/Certificate/CT-CEANYXL7/png" target="_blank">
                 <img src="./assets/images/sql-sl.png" alt="client logo">
               </a>
             </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/french-fla.png" alt="client logo">
-              </a>
-            </li>
-
-
           </ul>
 
         </section>
@@ -1057,17 +1239,19 @@
               <button class="active" data-filter-btn>All</button>
             </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+            <!--
+			<li class="filter-item">
+              <button data-filter-btn>Power BI</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Test automation</button>
             </li>
-
+			-->
+			<!--
             <li class="filter-item">
               <button data-filter-btn>Web development</button>
-            </li>
+            </li> -->
 
           </ul>
 
@@ -1089,17 +1273,19 @@
                 <button data-select-item>All</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web design</button>
+              <!--
+			  <li class="select-item">
+                <button data-select-item>Power BI</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Test Automation</button>
               </li>
+			  -->
 
-              <li class="select-item">
+              <!-- <li class="select-item">
                 <button data-select-item>Web development</button>
-              </li>
+              </li> -->
 
             </ul>
 
@@ -1107,25 +1293,26 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Power BI">
+              <a href="https://www.linkedin.com/posts/hamza-boubou_codebasicsabrbi360abrchallenge-activity-7121587503060430849-Jsjg?utm_source=share&utm_medium=member_desktop" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/atliq-project.png" alt="business core" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Business core</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Power BI</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <!--
+			<li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -1160,26 +1347,70 @@
 
               </a>
             </li>
+			
+			-->
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Test automation">
+              <a href="https://www.youtube.com/watch?v=MhO9BuXRf7A" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/chartbot.png" alt="chart bot" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Chart snaps bot</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Test automation</p>
 
               </a>
             </li>
+			
+			<li class="project-item  active" data-filter-item data-category="Test automation">
+              <a href="https://www.youtube.com/watch?v=JmB7NCbY8x0&t=242s" target="_blank">
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tg-scrape.png" alt="tg bot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Telegram scraping</h3>
+
+                <p class="project-category">Web scraping</p>
+
+              </a>
+            </li>
+			
+			<li class="project-item  active" data-filter-item data-category="Power BI">
+              <a>
+
+                
+                  <div class="centered-video" id="rounded-video">
+					<div class="video-container">
+                    <video width="350" height="250" controls>
+						<source src="./assets/images/Hamza Boubou Power BI.mp4" type="video/mp4">
+						Your browser does not support the video tag
+					</video>
+					</div>
+					</div>
+                
+
+                <h3 class="project-title">Power BI</h3>
+
+                <p class="project-category">AtliQ Full Business Insights</p>
+
+              </a>
+            </li>
+			
+			
+
+            <!--
+			<li class="project-item  active" data-filter-item data-category="web design">
               <a href="#">
 
                 <figure class="project-img">
@@ -1268,6 +1499,7 @@
 
               </a>
             </li>
+			-->
 
           </ul>
 
@@ -1486,22 +1718,17 @@
 
           <h3 class="h3 form-title">Contact Me</h3>
 
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Company Name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
+          <form action="./assets/php/sendmail.php" method="post" class="form" data-form>
+			  <div class="input-wrapper">
+				<input type="text" name="company" class="form-input" placeholder="Company Name" required data-form-input>
+				<input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+			  </div>
+			  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+			  <button class="form-btn" type="submit" disabled data-form-btn>
+				<ion-icon name="paper-plane"></ion-icon>
+				<span>Send Message</span>
+			  </button>
+			</form>
 
         </section>
 
